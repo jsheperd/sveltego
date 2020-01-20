@@ -1,4 +1,4 @@
-/node_modules/
-/public/build/
-
-.DS_Store
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
