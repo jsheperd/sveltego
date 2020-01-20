@@ -4,6 +4,7 @@ template for svelte with go
 # Install
 
 ## Frontend
+npx degit sveltejs/template frontend
 cd frontend  
 yarn  
 yarn dev  
