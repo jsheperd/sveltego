@@ -14,8 +14,6 @@ func newDirector(origin url.URL) func(*http.Request) {
 	return func(req *http.Request) {
 		req.Header.Add("X-Forwarded-Host", req.Host)
 		req.Header.Add("X-Origin-Host", origin.Host)
-		req.URL.Scheme = "http"
-		req.URL.Host = origin.Host
 	}
 }
 
